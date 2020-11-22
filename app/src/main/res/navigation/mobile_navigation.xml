@@ -12,14 +12,25 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.shop.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_search"
+        android:name="com.example.shop.ui.search.SearchFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_basket"
+        android:name="com.example.shop.ui.basket.BasketFragment"
+        android:label="Basket"
+        tools:layout="@layout/fragment_basket" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.shop.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.shop.ui.account.AccountFragment"
+        android:label="My account"
+        tools:layout="@layout/fragment_account" />
 </navigation>
